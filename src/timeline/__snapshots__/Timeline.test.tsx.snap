@@ -1,0 +1,823 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Timeline /> renders correctly for different data sets 1`] = `
+<DocumentFragment>
+  <div
+    style="padding: 22px 36px 22px 36px; overflow-x: auto;"
+  >
+    <div
+      style="height: 488px; position: relative;"
+    >
+      <div
+        style="height: 24px; position: absolute; display: flex; align-items: center; left: 0px; right: 0px; transform: translate(0px, 232px); width: 2768px;"
+      >
+        <div
+          style="height: 4px; width: 100%; background: rgb(255, 255, 255);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(56px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(112px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(168px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(224px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(235px, -85px; height: 146px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(224px, -170px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            24/12/1994
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(212px, -98px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(336px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(392px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(403px, 85px; height: 146px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(392px, 170px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            27/12/1994
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(380px, 98px); bottom: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(448px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(459px, -116px; height: 208px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(448px, -232px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            28/12/1994
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(436px, -98px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(436px, -160px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 1
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(504px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(616px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(672px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(728px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(784px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(896px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(907px, -85px; height: 146px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(896px, -170px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            05/01/1995
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(884px, -98px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(952px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1008px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1064px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1176px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1232px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1288px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1344px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1456px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1512px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1568px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(1579px, -85px; height: 146px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(1568px, -170px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            17/01/1995
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(1556px, -98px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1624px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1736px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1792px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(1803px, -116px; height: 208px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(1792px, -232px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            21/01/1995
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(1780px, -98px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(1780px, -160px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 1
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1848px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1904px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2016px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2072px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2128px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2184px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2296px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2352px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2408px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2464px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(2475px, -116px; height: 208px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(2464px, -232px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            02/02/1995
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(2452px, -98px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(2452px, -160px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 1
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2576px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2632px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2688px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(2744px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(2755px, 85px; height: 146px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(2744px, 170px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            07/02/1995
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(2732px, 98px); bottom: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Timeline /> renders correctly for different data sets 2`] = `
+<DocumentFragment>
+  <div
+    style="padding: 22px 36px 22px 36px; overflow-x: auto;"
+  >
+    <div
+      style="height: 488px; position: relative;"
+    >
+      <div
+        style="height: 24px; position: absolute; display: flex; align-items: center; left: 0px; right: 0px; transform: translate(0px, 232px); width: 1088px;"
+      >
+        <div
+          style="height: 4px; width: 100%; background: rgb(255, 255, 255);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(0px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(56px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(112px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(168px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(224px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(235px, -85px; height: 146px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(224px, -170px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            24/12/1994
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(212px, -98px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(280px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(291px, 116px; height: 208px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(280px, 232px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            25/12/1994
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(268px, 98px); bottom: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(268px, 160px); bottom: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 1
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(336px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(392px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(448px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(459px, -116px; height: 208px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(448px, -232px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            28/12/1994
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(436px, -98px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(436px, -160px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 1
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(504px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(560px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(571px, 85px; height: 146px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(560px, 170px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            30/12/1994
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(548px, 98px); bottom: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(616px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(672px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(728px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(784px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(840px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(896px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(907px, -85px; height: 146px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(896px, -170px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            05/01/1995
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(884px, -98px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            This is title with idx: 0
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(952px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1008px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(1064px, 0px);"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Timeline /> renders correctly for different data sets 3`] = `
+<DocumentFragment>
+  <div
+    style="padding: 22px 36px 22px 36px; overflow-x: auto;"
+  >
+    <div
+      style="height: 318px; position: relative;"
+    >
+      <div
+        style="height: 24px; position: absolute; display: flex; align-items: center; left: 0px; right: 0px; transform: translate(0px, 0px); width: 80px;"
+      >
+        <div
+          style="height: 4px; width: 100%; background: rgb(255, 255, 255);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(0px, 0px);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(56px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(67px, 147px; height: 270px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(56px, 294px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            24/12/1994
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(44px, 98px); bottom: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            TDD in React ddd
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(44px, 160px); bottom: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            TDD in React ddd
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(44px, 222px); bottom: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            TDD in React ddd
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Timeline /> renders correctly for different data sets 4`] = `
+<DocumentFragment>
+  <div
+    style="padding: 22px 36px 22px 36px; overflow-x: auto;"
+  >
+    <div
+      style="height: 380px; position: relative;"
+    >
+      <div
+        style="height: 24px; position: absolute; display: flex; align-items: center; left: 0px; right: 0px; transform: translate(0px, 356px); width: 80px;"
+      >
+        <div
+          style="height: 4px; width: 100%; background: rgb(255, 255, 255);"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(0px, 0px);"
+        />
+        <div
+          style="width: 2px; transform: translate(11px, -178px; height: 332px; position: absolute; background: rgb(255, 255, 255); transition: 0.3s transform ease-in-out;"
+        />
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; display: flex; align-items: center; transform: translate(0px, -356px);"
+        >
+          <span
+            style="font-size: 20px; font-family: Lexend, sans-serif; font-weight: bold; padding-left: 49px;"
+          >
+            19/12/1994
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(-12px, -98px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            TDD in React ddd
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(-12px, -160px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            TDD in React ddd
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(-12px, -222px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            TDD in React ddd
+          </span>
+        </div>
+        <div
+          style="display: flex; align-items: center; position: absolute; transition: 0.3s transform ease-in-out; cursor: pointer; height: 50px; width: 206px; transform: translate(-12px, -284px); top: 0px;"
+        >
+          <img
+            alt="Timeline avatar"
+            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+            style="height: 100%; border-radius: 50%; max-width: 100%;"
+          />
+          <span
+            style="margin-left: 12px; font-family: Lexend, sans-serif; font-size: 16px; font-weight: bold;"
+          >
+            TDD in React ddd
+          </span>
+        </div>
+        <div
+          style="background: rgb(255, 210, 0); border-color: #000; border-style: solid; border-radius: 50%; position: absolute; left: 0px; transition: 0.3s transform ease-in-out; height: 24px; border-width: 2px; width: 24px; transform: translate(56px, 0px);"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Timeline /> renders correctly for different data sets 5`] = `
+<DocumentFragment>
+  <div
+    style="padding: 22px 36px 22px 36px; overflow-x: auto;"
+  >
+    <div
+      style="height: 24px; position: relative;"
+    >
+      <div
+        style="height: 24px; position: absolute; display: flex; align-items: center; left: 0px; right: 0px; transform: translate(0px, 0px); width: 0px;"
+      >
+        <div
+          style="height: 4px; width: 100%; background: rgb(255, 255, 255);"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
