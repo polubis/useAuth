@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import { getUser, User } from "./getUser.service";
 import { useAuth } from "./useAuth";
 
-// Async function that checks is user authorized or not.
-const isAuthorized = (): Promise<User | null> => {
+const getAuthorizedUser = (): Promise<User | null> => {
   const user = localStorage.getItem("user") as string | null;
 
+  // If there is no user data in Local storage it simply returns null.
   if (!user) {
     return Promise.resolve(null);
   }
@@ -13,13 +13,14 @@ const isAuthorized = (): Promise<User | null> => {
   return Promise.resolve(JSON.parse(user) as User);
 };
 
-// Facade to have implementation logic in one place.
+// Facade to have logic in one place.
 const useMyAppAuth = () => {
   // Setup of auth logic.
-  const result = useAuth<User>({ provider: getUser, check: isAuthorized });
+  const result = useAuth<User>({ provider: getUser, check: getAuthorizedUser });
 
   useEffect(() => {
-    // Triggers getUser() to call authorization endpoint.
+    // The getUser() function is called underneath, which 
+    // performs an authorization request.
     result.authorize();
   }, []);
 

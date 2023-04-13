@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState, useMemo } from "react";
 import { catchError, EMPTY, from, Subject, switchMap, tap } from "rxjs";
 
-// A set of interfaces that represent the data variants.
+// Possible states described by interfaces.
 interface IdleState {
   status: "idle";
 }
@@ -24,7 +24,7 @@ interface AuthorizationErrorState {
   message: string;
 }
 
-// Union of interfaces - these will be variants of our state.
+// Union of interfaces - variants of our state.
 type AuthState<T> =
   | IdleState
   | CheckingState
@@ -32,12 +32,11 @@ type AuthState<T> =
   | AuthorizedState<T>
   | AuthorizationErrorState;
 
-// Function definition with API query for authorization.
+// Function definition for authorization.
 type Provider<T> = (...params: unknown[]) => Promise<T>;
 // Function that returns data about authorized user or null if he is not authorized.
 type Check<T> = (...params: unknown[]) => Promise<T | null>;
 
-// Such an object will be handed over to hook.
 interface Config<T> {
   provider: Provider<T>;
   check: Check<T>;
@@ -45,19 +44,17 @@ interface Config<T> {
 
 const useAuth = <T>({ provider, check }: Config<T>) => {
   const [state, setState] = useState<AuthState<T>>({ status: "idle" });
-  // Subject object to trigger actions.
+  // Through the subject we will start authorization.
   const authorizeAction = useMemo(() => new Subject<void>(), []);
-  // Cast to observable to listen to actions.
+  // To listen for actions we use the observable.
   const authorizeAction$ = useMemo(() => authorizeAction.asObservable(), []);
 
-  // Simple function to trigger action.
   const authorize = useCallback((): void => {
+    // Next emits new action.
     authorizeAction.next();
   }, []);
 
-  // Subscription to actions stream and logic definition.
   useEffect(() => {
-    // Authorization logic for checking is user authorized or not.
     const sub = authorizeAction$
       .pipe(
         tap(() => {
@@ -67,11 +64,12 @@ const useAuth = <T>({ provider, check }: Config<T>) => {
           // Promise casted to observable that checks you are authorized or not.
           from(check()).pipe(
             switchMap((data) => {
-              // If null it means it's not authorized yet.
+              // It's not authorized yet if data is null.
               const isAuthorized = !!data;
 
               if (isAuthorized) {
                 setState({ status: "authorized", data });
+                // EMPTY is returned to not close authorizeAction$ stream.
                 return EMPTY;
               }
 
@@ -87,7 +85,7 @@ const useAuth = <T>({ provider, check }: Config<T>) => {
           )
         ),
         catchError((error) => {
-          // Handling all errors.
+          // Handling errors.
           setState({
             status: "error",
             message: error?.message ?? "Unknown error"
